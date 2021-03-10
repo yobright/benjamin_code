@@ -1,0 +1,38 @@
+@keyframes first-slide {
+    0% {
+        transform: translateX(0);
+    } 
+    100% {
+        transform: translateX(-1450px);
+    }
+}
+
+@keyframes second-slide {
+    0% {
+        transform: translateX(0); 
+    } 
+    100% {
+        transform: translate(1050px);
+    }
+}
+
+
+/* MOBILE */ 
+@keyframes first-slide-mobile {
+    0% {
+        transform: translateX(0);
+    } 
+    100% {
+        transform: translateX(-1030px);
+    }
+}
+
+@keyframes second-slide-mobile {
+    0% {
+        transform: translateX(0); 
+    } 
+    100% {
+        transform: translate(750px);
+    }
+}
+
