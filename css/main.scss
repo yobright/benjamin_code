@@ -25,6 +25,7 @@ a {
 
 .wrapper {
     border: 7px solid $third;
+    border-radius: 40px;
     max-width: 1820px;
     min-height: 890px;
     height: 100%;
@@ -137,7 +138,7 @@ a {
             .circle {
                 position: absolute;
                 border-radius: 50%;
-                background-color: $third;
+                background-color: $circle;
 
                 &.big {
                     width: 513px;
